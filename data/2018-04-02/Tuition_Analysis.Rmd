@@ -1,0 +1,39 @@
+---
+title: "US Tuition analysis"
+output: html_notebook
+---
+
+This notebook is trying to visualize and look into US tuition trend. 
+
+```{r Load packages, echo=FALSE, message=FALSE, warning=FALSE}
+# devtools::install_github("hadley/tidyverse")
+library(tidyverse)
+library(knitr)
+library(broom)
+library(lubridate)
+library(stringr)
+```
+
+Now load data in `xlsx` into r as a **tibble**, then `gather()` the data into **long** format. 
+
+```{r load data ,echo=TRUE }
+tuition_raw <- readxl::read_xlsx("us_avg_tuition.xlsx")
+head(tuition_raw)
+
+```
+
+```{r gather the data columns}
+tuition_long <- tuition_raw %>% gather(key = "Ac_year",
+                                 value = starts_with(200),
+                                 -State) %>%
+  rename("tuition" = "starts_with(200)") %>% 
+  mutate(year = stringr::(Ac_year,4))
+head(tuition_long)
+```
+
+Now lets' do some visualization. 
+
+```{r}
+tuition_long %>% qplot(x = Ac_year, y = tuition )
+```
+
