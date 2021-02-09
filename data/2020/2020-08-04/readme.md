@@ -41,7 +41,7 @@ energy_types <- tuesdata$energy_types
 # Or read in the data manually
 
 energy_types <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2020/2020-08-04/energy_types.csv')
-country_totals <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2020/2020-08-04/energy_types.csv')
+country_totals <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2020/2020-08-04/country_totals.csv')
 
 ```
 ### Data Dictionary
@@ -78,7 +78,10 @@ Limited to total net production, along with imports, exports, energy lost, and e
 ```{r}
 library(tidyverse)
 library(readxl)
-library(countrycodes)
+library(countrycode)
+
+raw_code <- countrycode::codelist %>% 
+    select(country_name = country.name.en, country = eurostat)
 
 raw_excel <- read_excel("2020/2020-08-04/Electricity_generation_statistics_2019.xlsx", sheet = 3)
   

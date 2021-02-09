@@ -63,45 +63,40 @@ Credit: [YOUR NAME](Twitter handle or other social media profile)
 ## Submitting Code Chunks
 Want to submit a useful code-chunk? Please submit as a [Pull Request](https://github.com/rfordatascience/tidytuesday/tree/master/community_resources/code_chunks) and follow the [guide](https://github.com/rfordatascience/tidytuesday/blob/master/community_resources/code_chunks/readme.md).
 
+## Citing TidyTuesday
+
+To cite the TidyTuesday repo/project in publications use:
+
+  Thomas Mock (2021). Tidy Tuesday: A weekly data project aimed at the R ecosystem.
+  https://github.com/rfordatascience/tidytuesday.
+
+A BibTeX entry for LaTeX users is
+
+```
+  @misc{tidytuesday, 
+    title = {Tidy Tuesday: A weekly data project aimed at the R ecosystem}, 
+    author = {Mock, Thomas}, 
+    url = {https://github.com/rfordatascience/tidytuesday}, 
+    year = {2021} 
+  }
+```
+
+Note: If you would like to cite the [tidytuesdayR](https://thebioengineer.github.io/tidytuesdayR/) package, you should use `citation("tidytuesdayR")` instead.
+
 ***
 
 # DataSets
-## [2018](data/2018) | [2019](data/2019) | [2020](data/2020)  
+## [2018](data/2018) | [2019](data/2019) | [2020](data/2020)  | [2021](data/2021)
 
 | Week | Date | Data | Source | Article
 | :---: | :---: | :--- | :--- | :---|
-| 1 | `2019-12-31` | Bring your own data from 2019! | | |
-| 2 | `2020-01-07` | [Australian Fires](data/2020/2020-01-07/readme.md) | [Bureau of Meteorology](http://www.bom.gov.au/climate/data/stations/)| [NY Times](https://www.nytimes.com/interactive/2020/01/02/climate/australia-fires-map.html) & [BBC](https://www.bbc.com/news/world-australia-50951043) |
-| 3 | `2020-01-14` | [Passwords](data/2020/2020-01-14/readme.md) | [Knowledge is Beautiful](https://docs.google.com/spreadsheets/d/1cz7TDhm0ebVpySqbTvrHrD3WpxeyE4hLZtifWSnoNTQ/edit#gid=21) | [Information is Beautiful](https://informationisbeautiful.net/visualizations/top-500-passwords-visualized/) |
-| 4 | `2020-01-21` | [Song Genres](data/2020/2020-01-21/readme.md) | [`spotifyr` ](https://www.rcharlie.com/spotifyr/) | [Kaylin Pavlik](https://www.kaylinpavlik.com/classifying-songs-genres/) |
-| 5 | `2020-01-28` | [San Francisco Trees](data/2020/2020-01-28/readme.md) | [data.sfgov.org](https://data.sfgov.org/City-Infrastructure/Street-Tree-List/tkzw-k3nq) | [SF Weekly](https://www.sfweekly.com/news/feature/trees-of-life/) |
-| 6 | `2020-02-04` | [NFL Attendance](data/2020/2020-02-04/readme.md) | [Pro Football Reference](https://www.pro-football-reference.com/years/2002/index.htm) | [Casino.org](https://www.casino.org/record-and-attendance/) |
-| 7 | `2020-02-11` | [Hotel Bookings](data/2020/2020-02-11/readme.md) | [Antonio, Almeida, and Nunes, 2019](https://www.sciencedirect.com/science/article/pii/S2352340918315191#bib5) | [`tidyverts`](https://tsibble.tidyverts.org/) |
-| 8 | `2020-02-18` | [Food's Carbon Footprint](data/2020/2020-02-18/readme.md) | [nu3](https://www.nu3.de/blogs/nutrition/food-carbon-footprint-index-2018) | [`r-tastic` by Kasia Kulma](https://r-tastic.co.uk/post/from-messy-to-tidy/) |
-| 9 | `2020-02-25` | [Measles Vaccination](data/2020/2020-02-25/readme.md) | [The Wallstreet Journal](https://github.com/WSJ/measles-data) | [The Wall Street Journal](https://www.wsj.com/graphics/school-measles-rate-map/) |
-| 10 | `2020-03-03` | [NHL Goals](data/2020/2020-03-03/readme.md) | [HockeyReference.com](https://www.hockey-reference.com/leaders/goals_career.html) | [Washington Post](https://www.washingtonpost.com/graphics/2020/sports/capitals/ovechkin-700-goals/?utm_campaign=wp_graphics&utm_medium=social&utm_source=twitter)|
-| 11 | `2020-03-10` | [College Tuition, Diversity, and Pay](data/2020/2020-03-10/readme.md) | [TuitionTracker.org](https://www.tuitiontracker.org/) | [TuitionTracker.org](https://www.tuitiontracker.org/school.html?unitid=228778) |
-| 12 | `2020-03-17` | [The Office](data/2020/2020-03-17/readme.md) | [`schrute`](https://bradlindblad.github.io/schrute/index.html) | [The Pudding](https://pudding.cool/2017/08/the-office/) |
-| 13 | `2020-03-24` | [Traumatic Brain Injury](data/2020/2020-03-24/readme.md) | [CDC](https://www.cdc.gov/mmwr/volumes/68/wr/mm6810a1.htm) | [CDC Traumatic Brain Injury Report](https://www.cdc.gov/mmwr/volumes/68/wr/mm6810a1.htm) |
-| 14 | `2020-03-31` | [Beer Production](data/2020/2020-03-31/readme.md) | [TTB](https://www.ttb.gov/beer/statistics) | [Brewers Association](https://www.brewersassociation.org/insights/cans-bottles-craft-beer-packaging-trends/) |
-| 15 | `2020-04-07` | [Tour de France](data/2020/2020-04-07/readme.md) | [`tdf` package](https://github.com/alastairrushworth/tdf) | [Alastair Rushworth's blog](https://alastairrushworth.github.io/Visualising-Tour-de-France-data-in-R/) |
-| 16 | `2020-04-14` | [Best Rap Artists](data/2020/2020-04-14/readme.md) | [BBC Music](http://www.bbc.com/culture/story/20191007-the-greatest-hip-hop-songs-of-all-time-who-voted) | [Simon Jockers at Datawrapper](https://blog.datawrapper.de/best-hip-hop-songs-of-all-time-visualized/) |
-| 17 | `2020-04-21` | [GDPR Violation](data/2020/2020-04-21/readme.md) | [Privacy Affairs](https://www.privacyaffairs.com/gdpr-fines/) | [Roel Hogervorst](https://blog.rmhogervorst.nl/blog/2020/04/08/scraping-gdpr-fines/) |
-| 18 | `2020-04-28` | [Broadway Musicals](data/2020/2020-04-28/readme.md) | [Playbill](https://www.playbill.com/grosses) | [Alex Cookson](https://www.alexcookson.com/post/most-successful-broadway-show-of-all-time/) |
-| 19 | `2020-05-05` | [Animal Crossing](data/2020/2020-05-05/readme.md) | [Villager DB](https://github.com/jefflomacy/villagerdb) | [Polygon](https://www.polygon.com/2020/4/2/21201065/animal-crossing-new-horizons-calm-mindfulness-coronavirus-quarantine) |
-| 20 | `2020-05-12` | [Volcano Eruptions](data/2020/2020-05-12/readme.md) | [Smithsonian](https://volcano.si.edu/) | [Axios](https://www.axios.com/chart-every-volcano-that-erupted-since-krakatoa-467da621-41ba-4efc-99c6-34ff3cb27709.html) & [Wikipedia](https://en.wikipedia.org/wiki/Volcano)|
-| 21 | `2020-05-19` | [Beach Volleyball](data/2020/2020-05-19/readme.md) | [BigTimeStats](https://bigtimestats.blog/data/) | [FiveThirtyEight](https://fivethirtyeight.com/features/serving-is-a-disadvantage-in-some-olympic-sports/) & [Wikipedia](https://en.wikipedia.org/wiki/Beach_volleyball#Skills)|
-| 22 | `2020-05-26` | [Cocktails](data/2020/2020-05-26/readme.md) | [Kaggle](https://www.kaggle.com/ai-first/cocktail-ingredients) & [Kaggle](https://www.kaggle.com/jenlooper/mr-boston-cocktail-dataset) | [FiveThirtyEight](https://fivethirtyeight.com/videos/we-got-drunk-on-margaritas-for-science/) |
-| 23 | `2020-06-02` | [Marble Races](data/2020/2020-06-02/readme.md) | [Jelle's Marble Runs](https://www.youtube.com/channel/UCYJdpnjuSWVOLgGT9fIzL0g)| [Randy Olson](http://www.randalolson.com/2020/05/24/a-data-driven-look-at-marble-racing/) |
-| 24 | `2020-06-09` | [African-American Achievements](data/2020/2020-06-09/readme.md) | [Wikipedia](https://en.wikipedia.org/wiki/List_of_African-American_inventors_and_scientists) & [Wikipedia](https://en.wikipedia.org/wiki/List_of_African-American_firsts) | [David Blackwell](https://www.stltoday.com/news/local/obituaries/david-blackwell-fought-racism-became-world-famous-statistician/article_8ea41058-5f35-5afa-9c3a-007200c5c179.html) & [Petition for David Blackwell](https://www.change.org/p/american-statistical-association-rename-the-fisher-lecture-after-david-blackwell?recruiter=1107887809) |
-| 25 | `2020-06-16` | [African-American History](data/2020/2020-06-16/readme.md) | [Black Past](https://www.blackpast.org/donate/) & [Census](https://www.census.gov/content/dam/Census/library/working-papers/2002/demo/POP-twps0056.pdf) & [Slave Voyages](https://slavevoyages.org/) | [The Guardian](https://www.theguardian.com/news/2019/aug/15/400-years-since-slavery-timeline) |
-| 26 | `2020-06-23` | [Caribou Locations](data/2020/2020-06-23/readme.md) | [Movebank](https://www.movebank.org/cms/movebank-content/about-movebank) | [B.C. Ministry of Environment](https://www2.gov.bc.ca/assets/gov/environment/plants-animals-and-ecosystems/wildlife-wildlife-habitat/caribou/science_update_final_from_web_jan_2014.pdf)  |
-| 27 | `2020-06-30` | [Claremont Run of X-Men](data/2020/2020-06-30/readme.md) | [Claremont Run](http://www.claremontrun.com/) | [Wikipedia - Uncanny X-Men](https://en.wikipedia.org/wiki/Uncanny_X-Men)  |
-| 28 | `2020-07-07` | [Coffee Ratings](data/2020/2020-07-07/readme.md) | [James LeDoux](https://github.com/jldbc/coffee-quality-database) & [Coffee Quality Database](https://github.com/jldbc/coffee-quality-database)  | [Yorgos Askalidis - TWD](https://towardsdatascience.com/the-data-speak-ethiopia-has-the-best-coffee-91f88ed37e84)  |
-| 29 | `2020-07-14` | [Astronaut Database](data/2020/2020-07-14/readme.md) | [Corlett, Stavnichuk & Komarova article](https://www.sciencedirect.com/science/article/abs/pii/S2214552420300444) | [Corlett, Stavnichuk & Komarova article](https://www.sciencedirect.com/science/article/abs/pii/S2214552420300444) |
-| 30 | `2020-07-21` | [Australian Animal Outcomes](data/2020/2020-07-21/readme.md) | [RSPCA](https://www.rspca.org.au/what-we-do/our-role-caring-animals/annual-statistics) | [RSPCA Report](https://www.rspca.org.au/sites/default/files/RSPCA%20Report%20on%20animal%20outcomes%202018-2019.pdf) |
-| 31 | `2020-07-28` | [Palmer Penguins](data/2020/2020-07-28/readme.md) | [Gorman, Williams and Fraser, 2014](https://doi.org/10.1371/journal.pone.0090081) | [Palmer Penguins](https://allisonhorst.github.io/palmerpenguins/) |
-| 32 | `2020-08-04` | [European Energy](data/2020/2020-08-04/readme.md) | [Eurostat Energy](https://ec.europa.eu/eurostat/statistics-explained/index.php/Electricity_generation_statistics_%E2%80%93_first_results) | [Washington Post Energy](https://www.washingtonpost.com/climate-environment/2020/07/30/biden-calls-100-percent-clean-electricity-by-2035-heres-how-far-we-have-go/?arc404=true&utm_medium=social&utm_source=twitter&utm_campaign=wp_graphics) |
+| 1 | `2020-12-29` | Bring your own data from 2020! | | |
+| 2 | `2021-01-05` | [Transit Cost Project](data/2021/2021-01-05/readme.md) | [TransitCosts.com](https://transitcosts.com/) | [Transit Costs Case Study](https://transitcosts.com/city/boston-case-the-story-of-the-green-line-extension/) |
+| 3 | `2021-01-12` | [Art Collections](data/2021/2021-01-12/readme.md) | [Tate Collection](http://bit.ly/3sev5lM) | [AR of Artworks](https://josephlewis.github.io/aspect.html) |
+| 4 | `2021-01-19` | [Kenya Census](data/2021/2021-01-19/readme.md) | [`rKenyaCensus`](https://github.com/Shelmith-Kariuki/rKenyaCensus) | [Introducing `rKenyaCensus`](https://shelkariuki.netlify.app/post/rkenyacensus/) |
+| 5 | `2021-01-26` | [Plastic Pollution](data/2021/2021-01-26/readme.md) | [Break Free from Plastic](https://www.breakfreefromplastic.org) | [Sarah Sauve](https://github.com/sarahsauve/TidyTuesdays/blob/master/BFFPDashboard/BlogPost.md) |
+| 6 | `2021-02-02` | [HBCU Enrollment](data/2021/2021-02-02/readme.md) | [Data.World](https://data.world/nces/hbcu-fall-enrollment-1976-2015) & [Data.World](https://data.world/nces/high-school-completion-and-bachelors-degree-attainment) | [HBCU Donations Article](https://theundefeated.com/features/how-hbcus-are-using-more-than-250-million-in-donations/) |
+| 7 | `2021-02-09` | [Wealth and Income](data/2021/2021-02-09/readme.md) | [Urban Institute](https://apps.urban.org/features/wealth-inequality-charts/) & [US Census](https://www.census.gov/data/tables/time-series/demo/income-poverty/historical-income-households.html) | [Urban Institute](https://apps.urban.org/features/wealth-inequality-charts/) |
 
 ***  
 
